@@ -11,7 +11,6 @@ def count_sundays():
             day = calendar.monthrange(year, month)[0]
 
             if day == 6:
-                print(year, month)
                 total += 1
 
     print('Total: ', total)
