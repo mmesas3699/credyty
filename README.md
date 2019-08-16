@@ -14,3 +14,11 @@ En el repositorio se encuentran dos archivos:
   - Si el día es domingo suma uno a la variable total y continua con el mes siguiente, si no es domingo no suma y continua el   
     mes siguiente.
   - Cuando termina la iteración retorna total obtenido.
+
+## Para ejecutar la función desde Docker
+
+  1. Buildear la imagen:
+    - Desde el directorio code/ ejecutar:
+      $ docker build -t "nombre_de_la_imagen" .
+  2. Ejecutar el contenedor:
+      $ docker run "nombre_de_la_imagen"
